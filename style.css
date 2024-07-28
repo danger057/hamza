@@ -1,0 +1,60 @@
+body{
+    background-color: #7c682b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    animation: bgfade 2s;
+
+}
+section{
+    position: relative;
+    width: 100%;
+    height:100vh ;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+section h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-family: "cookie";
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    opacity: 1;
+    color: white;
+    animation: infinite;
+}
+#myvideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    background-size: cover ;
+
+
+
+}
+button{
+    background-color:rgb(113,88, 52) ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+
+}
+.white{
+    color: white;
+    text-decoration: none;
+
+}
